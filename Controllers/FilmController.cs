@@ -35,11 +35,6 @@ namespace Videoteka.Controllers
             return Ok(_context.Filmovi.Find(sifra));
         }
 
-        private IActionResult Ok(Film? film)
-        {
-            throw new NotImplementedException();
-        }
-
         [HttpPost]
         public IActionResult Post(Film film)
         {
@@ -48,11 +43,7 @@ namespace Videoteka.Controllers
             return StatusCode(StatusCodes.Status201Created, film);
         }
 
-        private IActionResult StatusCode(int status201Created, Film film)
-        {
-            throw new NotImplementedException();
-        }
-
+ 
         [HttpPut]
         [Route("{sifra:int}")]
         [Produces("application/json")]

@@ -19,3 +19,21 @@
 .akcije{
   margin-top: 20px;
 }
+
+.film {
+  
+  color: red !important; 
+ 
+}
+.dodajPozadina{
+  background-color: #00c8ff;
+}
+
+.zanr {
+  
+  color: #00ff00 !important; /* Zelena boja za žanr */
+}
+
+.vrijeme-trajanja {
+  color: #0000ff; /* Plava boja za vrijeme trajanja */
+}

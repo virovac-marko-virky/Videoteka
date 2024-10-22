@@ -51,21 +51,21 @@ export default function FilmoviPregled(){
     return(
         <>
         <Link to={RouteNames.FILM_NOVI}
-        className="btn btn-success siroko">Dodaj novi Film</Link>
+        className="btn btn-success siroko dodajPozadina">Dodaj novi Film</Link>
         <Table striped bordered hover responsive>
             <thead>
                 <tr>
-                    <th>Naziv</th>
+                    <th>Naziv Filma</th>
                     <th>Žanr</th>
-                    <th>godinaIzdanja</th>
-                    <th>vrijemeTrajanja</th>
+                    <th>Godina Izdanja</th>
+                    <th>Vrijeme Trajanja/min.</th>
                     <th>Akcija</th>
                 </tr>
             </thead>
             <tbody>
                 {filmovi && filmovi.map((Film,index)=>(
                     <tr key={index}>
-                        <td>
+                        <td className="film">
                             {Film.naziv}
                         </td>
                         <td>

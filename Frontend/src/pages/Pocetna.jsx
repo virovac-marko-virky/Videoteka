@@ -1,9 +1,11 @@
-
+import slika from '../assets/slika.png'
 
 export default function Pocetna(){
     return(
         <>
-        Ovdje će doći nešto pametnije kasnije
+        <div className='sredina'>
+            <img src={slika} alt="Asterix" className='slika'/>
+        </div>
         </>
     )
 }

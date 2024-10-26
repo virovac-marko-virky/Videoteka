@@ -37,3 +37,7 @@
 .vrijeme-trajanja {
   color: #0000ff; /* Plava boja za vrijeme trajanja */
 }
+
+.slika{
+  max-width: 500px;
+}

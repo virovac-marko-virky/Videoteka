@@ -40,24 +40,24 @@ export default function FilmoviDodaj(){
         <Form onSubmit={obradiSubmit}>
 
             <Form.Group controlId="naziv">
-                <Form.Label>Naziv</Form.Label>
+                <Form.Label>NAZIV FILMA</Form.Label>
                 <Form.Control type="text" name="naziv" required />
             </Form.Group>
 
             <Form.Group controlId="zanr">
-                <Form.Label>zanr</Form.Label>
+                <Form.Label>ŽANR FILMA</Form.Label>
                 <Form.Control type="text" name="zanr" required />
             </Form.Group>
 
 
             <Form.Group controlId="godinaIzdanja">
-                <Form.Label>godinaIzdanja</Form.Label>
+                <Form.Label>GODINA IZDANJA FILMA</Form.Label>
                 <Form.Control type="number" name="godinaIzdanja" required />
             </Form.Group>
 
 
             <Form.Group controlId="vrijemeTrajanja">
-                <Form.Label>vrijemeTrajanja</Form.Label>
+                <Form.Label>VRIJEME TRAJANJA FILMA</Form.Label>
                 <Form.Control type="number" name="vrijemeTrajanja" required />
             </Form.Group>
 
